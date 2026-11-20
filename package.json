@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
+  "bin": "server.js",
   "scripts": {
     "start": "node server.js"
   },
@@ -22,7 +23,7 @@
       "node_modules/**/*"
     ],
     "targets": [
-      "node22-win-x64"
+      "node18-win-x64"
     ]
   }
 }
