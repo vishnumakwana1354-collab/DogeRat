@@ -16,5 +16,13 @@
     "node-telegram-bot-api": "^0.59.0",
     "socket.io": "^4.5.3",
     "uuid": "^9.0.0"
+  },
+  "pkg": {
+    "assets": [
+      "node_modules/**/*"
+    ],
+    "targets": [
+      "node22-win-x64"
+    ]
   }
 }
